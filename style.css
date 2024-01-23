@@ -1,0 +1,156 @@
+.body {
+    background: linear-gradient(to bottom, pink, burlywood);
+    min-height: 100vh;
+    }
+    
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 100px;
+    
+}
+
+
+
+.diceResult {
+    font-size: 100px;
+    text-transform: uppercase;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 900;
+    color: darkcyan;
+    margin: auto;
+    background-color: beige;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2;
+
+}
+
+.thingResult {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 900;
+    color: darkcyan;
+    margin: auto;
+    background-color: beige;
+    width: 250px;
+    height: 100px;
+    border-radius: 3%;
+    text-align: center;
+    line-height: 3;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 12px;
+    color: darkcyan;
+    margin: auto;
+    
+}
+
+.header {
+    height: 90px;
+    border-bottom: solid 3px rgba(0, 139, 139, 0.517);
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    
+    
+}
+
+.title {
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    color: darkcyan;
+    text-align: center;
+    font-size: 30px;
+
+    @media (min-width: 768px) {
+        text-align: right;
+       /*  margin-right: 70px; */
+        font-size: 40px;
+    }
+}
+
+.header__info {
+    font-family: 'Fira Sans', sans-serif;
+    color: darkcyan;
+    transform: translateY(-70px);
+    margin-left: 70px;
+    
+
+}
+
+.icon {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.infoBox {
+    width: 200px;
+    background-color: rgba(0, 139, 139, 0.835);
+    border-radius: 6px;
+    padding: 15px;
+    margin-left: 40px;
+    transform: translateY(-80px);
+    justify-content: center;
+    /* margin-top: 40px; */
+    position: absolute;
+    
+
+    @media (min-width: 768px) {
+        width: 300px;
+        background-color: rgba(250, 235, 215, 0.775);
+        margin: 0;
+        transform: translateY(-120px);
+        position: absolute;
+       
+        
+    }
+
+
+
+}
+
+.infoBox__title {
+    font-family: 'Fira Sans', sans-serif;
+    color: antiquewhite;
+    font-size: 20px;
+
+    @media (min-width: 768px) {
+        color: darkcyan;
+    }
+
+}
+
+.infoBox__text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+    line-height: 20px;
+
+    @media (min-width: 768px) {
+    color: grey;
+    }
+}
+
+
+.collapse {
+    display: none;
+}
