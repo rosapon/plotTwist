@@ -18,7 +18,7 @@ Ejemplos:
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
-💡💡💡Feeling stuck with your story? Maybe you need more twists? Click the buttons to get a combination of a letter and a cathegory to think about. Who knows, you might come up with something that adds a little sparkle to your plot!💡💡💡
+💡💡💡Feeling stuck with your story? Maybe you need more twists? Click the buttons to get a combination of a letter and a category to think about. Who knows, you might come up with something that adds a little sparkle to your plot!💡💡💡
 
 Examples: 
 
